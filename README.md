@@ -11,7 +11,7 @@
 
 This Repository contains files for the ALX C - sorting algorithms and Big O. The goal is to implement and explore different sorting algorithms in the C programming language, emphasizing the understanding of Big O notation for evaluating time complexity. This project is designed for teams of two students to pair program, focusing on the implementation of at least four different sorting algorithms and gaining an understanding of Big O notation.
 
-##Objective
+## Objective
 
 This Sorting Algorithm's project aims to achieve the following:
 
