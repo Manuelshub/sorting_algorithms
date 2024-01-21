@@ -4,7 +4,7 @@
 
 - [Introduction](#introduction)
 - [Objective](#objective)
-- [Project Overview](#project overview)
+- [Project overview](#project overview)
 - [Usage](#usage)
 
 ## Introduction
