@@ -19,8 +19,14 @@ typedef struct listint_s
     struct listint_s *next;
 } listint_t;
 
+/* Print Functions */
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
+
+/* Swap Function */
+void swap_int(int *num1, int *num2);
+
+/* Function Portotypes */
 void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
