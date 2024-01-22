@@ -11,7 +11,8 @@ void insertion_sort_list(listint_t **list)
 	int temp_val;
 
 	/* Initializing a temp pointer to the second node of list*/
-	temp = (*list)->next;
+	if (list && *list)
+		temp = (*list)->next;
 	while (temp != NULL)
 	{
 		/* Assigning the value at the second node to a variable*/
@@ -38,6 +39,5 @@ void insertion_sort_list(listint_t **list)
 			t_next = temp->next;
 			print_list(*list);
 		}
-		temp = t_next;
 	}
 }
